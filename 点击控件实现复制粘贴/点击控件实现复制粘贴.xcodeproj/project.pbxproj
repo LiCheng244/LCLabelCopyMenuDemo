@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD429AF1E0CC9080029F898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429AE1E0CC9080029F898 /* main.m */; };
+		5AD429B21E0CC9080029F898 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429B11E0CC9080029F898 /* AppDelegate.m */; };
+		5AD429B51E0CC9080029F898 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429B41E0CC9080029F898 /* ViewController.m */; };
+		5AD429B81E0CC9080029F898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD429B61E0CC9080029F898 /* Main.storyboard */; };
+		5AD429BA1E0CC9080029F898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD429B91E0CC9080029F898 /* Assets.xcassets */; };
+		5AD429BD1E0CC9080029F898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD429BB1E0CC9080029F898 /* LaunchScreen.storyboard */; };
+		5AD429C81E0CC9080029F898 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429C71E0CC9080029F898 /* __________Tests.m */; };
+		5AD429D31E0CC9080029F898 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429D21E0CC9080029F898 /* __________UITests.m */; };
+		5AD429E21E0CC99E0029F898 /* LCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429E11E0CC99E0029F898 /* LCLabel.m */; };
+		5AD429E51E0D00B60029F898 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429E41E0D00B60029F898 /* TableViewController.m */; };
+		5AD429E81E0D04090029F898 /* LCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429E71E0D04090029F898 /* LCTableViewCell.m */; };
+		5AD429EB1E0D068A0029F898 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD429EA1E0D068A0029F898 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD429C41E0CC9080029F898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD429A21E0CC9080029F898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD429A91E0CC9080029F898;
+			remoteInfo = "点击控件实现复制粘贴";
+		};
+		5AD429CF1E0CC9080029F898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD429A21E0CC9080029F898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD429A91E0CC9080029F898;
+			remoteInfo = "点击控件实现复制粘贴";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD429AA1E0CC9080029F898 /* 点击控件实现复制粘贴.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "点击控件实现复制粘贴.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD429AE1E0CC9080029F898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD429B01E0CC9080029F898 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD429B11E0CC9080029F898 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD429B31E0CC9080029F898 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AD429B41E0CC9080029F898 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AD429B71E0CC9080029F898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD429B91E0CC9080029F898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD429BC1E0CC9080029F898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AD429BE1E0CC9080029F898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD429C31E0CC9080029F898 /* 点击控件实现复制粘贴Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点击控件实现复制粘贴Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD429C71E0CC9080029F898 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		5AD429C91E0CC9080029F898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD429CE1E0CC9080029F898 /* 点击控件实现复制粘贴UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点击控件实现复制粘贴UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD429D21E0CC9080029F898 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
+		5AD429D41E0CC9080029F898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD429E01E0CC99E0029F898 /* LCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLabel.h; sourceTree = "<group>"; };
+		5AD429E11E0CC99E0029F898 /* LCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLabel.m; sourceTree = "<group>"; };
+		5AD429E31E0D00B60029F898 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5AD429E41E0D00B60029F898 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5AD429E61E0D04090029F898 /* LCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTableViewCell.h; sourceTree = "<group>"; };
+		5AD429E71E0D04090029F898 /* LCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableViewCell.m; sourceTree = "<group>"; };
+		5AD429E91E0D068A0029F898 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5AD429EA1E0D068A0029F898 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD429A71E0CC9080029F898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD429C01E0CC9080029F898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD429CB1E0CC9080029F898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD429A11E0CC9080029F898 = {
+			isa = PBXGroup;
+			children = (
+				5AD429AC1E0CC9080029F898 /* 点击控件实现复制粘贴 */,
+				5AD429C61E0CC9080029F898 /* 点击控件实现复制粘贴Tests */,
+				5AD429D11E0CC9080029F898 /* 点击控件实现复制粘贴UITests */,
+				5AD429AB1E0CC9080029F898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD429AB1E0CC9080029F898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD429AA1E0CC9080029F898 /* 点击控件实现复制粘贴.app */,
+				5AD429C31E0CC9080029F898 /* 点击控件实现复制粘贴Tests.xctest */,
+				5AD429CE1E0CC9080029F898 /* 点击控件实现复制粘贴UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD429AC1E0CC9080029F898 /* 点击控件实现复制粘贴 */ = {
+			isa = PBXGroup;
+			children = (
+				5AD429B01E0CC9080029F898 /* AppDelegate.h */,
+				5AD429B11E0CC9080029F898 /* AppDelegate.m */,
+				5AD429E91E0D068A0029F898 /* BaseViewController.h */,
+				5AD429EA1E0D068A0029F898 /* BaseViewController.m */,
+				5AD429B31E0CC9080029F898 /* ViewController.h */,
+				5AD429B41E0CC9080029F898 /* ViewController.m */,
+				5AD429E31E0D00B60029F898 /* TableViewController.h */,
+				5AD429E41E0D00B60029F898 /* TableViewController.m */,
+				5AD429E01E0CC99E0029F898 /* LCLabel.h */,
+				5AD429E11E0CC99E0029F898 /* LCLabel.m */,
+				5AD429E61E0D04090029F898 /* LCTableViewCell.h */,
+				5AD429E71E0D04090029F898 /* LCTableViewCell.m */,
+				5AD429B61E0CC9080029F898 /* Main.storyboard */,
+				5AD429B91E0CC9080029F898 /* Assets.xcassets */,
+				5AD429BB1E0CC9080029F898 /* LaunchScreen.storyboard */,
+				5AD429BE1E0CC9080029F898 /* Info.plist */,
+				5AD429AD1E0CC9080029F898 /* Supporting Files */,
+			);
+			path = "点击控件实现复制粘贴";
+			sourceTree = "<group>";
+		};
+		5AD429AD1E0CC9080029F898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD429AE1E0CC9080029F898 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD429C61E0CC9080029F898 /* 点击控件实现复制粘贴Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD429C71E0CC9080029F898 /* __________Tests.m */,
+				5AD429C91E0CC9080029F898 /* Info.plist */,
+			);
+			path = "点击控件实现复制粘贴Tests";
+			sourceTree = "<group>";
+		};
+		5AD429D11E0CC9080029F898 /* 点击控件实现复制粘贴UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD429D21E0CC9080029F898 /* __________UITests.m */,
+				5AD429D41E0CC9080029F898 /* Info.plist */,
+			);
+			path = "点击控件实现复制粘贴UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD429A91E0CC9080029F898 /* 点击控件实现复制粘贴 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD429D71E0CC9080029F898 /* Build configuration list for PBXNativeTarget "点击控件实现复制粘贴" */;
+			buildPhases = (
+				5AD429A61E0CC9080029F898 /* Sources */,
+				5AD429A71E0CC9080029F898 /* Frameworks */,
+				5AD429A81E0CC9080029F898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "点击控件实现复制粘贴";
+			productName = "点击控件实现复制粘贴";
+			productReference = 5AD429AA1E0CC9080029F898 /* 点击控件实现复制粘贴.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD429C21E0CC9080029F898 /* 点击控件实现复制粘贴Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD429DA1E0CC9080029F898 /* Build configuration list for PBXNativeTarget "点击控件实现复制粘贴Tests" */;
+			buildPhases = (
+				5AD429BF1E0CC9080029F898 /* Sources */,
+				5AD429C01E0CC9080029F898 /* Frameworks */,
+				5AD429C11E0CC9080029F898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD429C51E0CC9080029F898 /* PBXTargetDependency */,
+			);
+			name = "点击控件实现复制粘贴Tests";
+			productName = "点击控件实现复制粘贴Tests";
+			productReference = 5AD429C31E0CC9080029F898 /* 点击控件实现复制粘贴Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AD429CD1E0CC9080029F898 /* 点击控件实现复制粘贴UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD429DD1E0CC9080029F898 /* Build configuration list for PBXNativeTarget "点击控件实现复制粘贴UITests" */;
+			buildPhases = (
+				5AD429CA1E0CC9080029F898 /* Sources */,
+				5AD429CB1E0CC9080029F898 /* Frameworks */,
+				5AD429CC1E0CC9080029F898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD429D01E0CC9080029F898 /* PBXTargetDependency */,
+			);
+			name = "点击控件实现复制粘贴UITests";
+			productName = "点击控件实现复制粘贴UITests";
+			productReference = 5AD429CE1E0CC9080029F898 /* 点击控件实现复制粘贴UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD429A21E0CC9080029F898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LiCheng;
+				TargetAttributes = {
+					5AD429A91E0CC9080029F898 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 756Z777W2K;
+						ProvisioningStyle = Automatic;
+					};
+					5AD429C21E0CC9080029F898 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 756Z777W2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AD429A91E0CC9080029F898;
+					};
+					5AD429CD1E0CC9080029F898 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 756Z777W2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AD429A91E0CC9080029F898;
+					};
+				};
+			};
+			buildConfigurationList = 5AD429A51E0CC9080029F898 /* Build configuration list for PBXProject "点击控件实现复制粘贴" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD429A11E0CC9080029F898;
+			productRefGroup = 5AD429AB1E0CC9080029F898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD429A91E0CC9080029F898 /* 点击控件实现复制粘贴 */,
+				5AD429C21E0CC9080029F898 /* 点击控件实现复制粘贴Tests */,
+				5AD429CD1E0CC9080029F898 /* 点击控件实现复制粘贴UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD429A81E0CC9080029F898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD429BD1E0CC9080029F898 /* LaunchScreen.storyboard in Resources */,
+				5AD429BA1E0CC9080029F898 /* Assets.xcassets in Resources */,
+				5AD429B81E0CC9080029F898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD429C11E0CC9080029F898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD429CC1E0CC9080029F898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD429A61E0CC9080029F898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD429B51E0CC9080029F898 /* ViewController.m in Sources */,
+				5AD429B21E0CC9080029F898 /* AppDelegate.m in Sources */,
+				5AD429AF1E0CC9080029F898 /* main.m in Sources */,
+				5AD429E51E0D00B60029F898 /* TableViewController.m in Sources */,
+				5AD429E81E0D04090029F898 /* LCTableViewCell.m in Sources */,
+				5AD429EB1E0D068A0029F898 /* BaseViewController.m in Sources */,
+				5AD429E21E0CC99E0029F898 /* LCLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD429BF1E0CC9080029F898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD429C81E0CC9080029F898 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD429CA1E0CC9080029F898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD429D31E0CC9080029F898 /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD429C51E0CC9080029F898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD429A91E0CC9080029F898 /* 点击控件实现复制粘贴 */;
+			targetProxy = 5AD429C41E0CC9080029F898 /* PBXContainerItemProxy */;
+		};
+		5AD429D01E0CC9080029F898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD429A91E0CC9080029F898 /* 点击控件实现复制粘贴 */;
+			targetProxy = 5AD429CF1E0CC9080029F898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AD429B61E0CC9080029F898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD429B71E0CC9080029F898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD429BB1E0CC9080029F898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD429BC1E0CC9080029F898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD429D51E0CC9080029F898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AD429D61E0CC9080029F898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD429D81E0CC9080029F898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "点击控件实现复制粘贴/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD429D91E0CC9080029F898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "点击控件实现复制粘贴/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AD429DB1E0CC9080029F898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "点击控件实现复制粘贴Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/点击控件实现复制粘贴.app/点击控件实现复制粘贴";
+			};
+			name = Debug;
+		};
+		5AD429DC1E0CC9080029F898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "点击控件实现复制粘贴Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/点击控件实现复制粘贴.app/点击控件实现复制粘贴";
+			};
+			name = Release;
+		};
+		5AD429DE1E0CC9080029F898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "点击控件实现复制粘贴UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "点击控件实现复制粘贴";
+			};
+			name = Debug;
+		};
+		5AD429DF1E0CC9080029F898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 756Z777W2K;
+				INFOPLIST_FILE = "点击控件实现复制粘贴UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "window.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "点击控件实现复制粘贴";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD429A51E0CC9080029F898 /* Build configuration list for PBXProject "点击控件实现复制粘贴" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD429D51E0CC9080029F898 /* Debug */,
+				5AD429D61E0CC9080029F898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD429D71E0CC9080029F898 /* Build configuration list for PBXNativeTarget "点击控件实现复制粘贴" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD429D81E0CC9080029F898 /* Debug */,
+				5AD429D91E0CC9080029F898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD429DA1E0CC9080029F898 /* Build configuration list for PBXNativeTarget "点击控件实现复制粘贴Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD429DB1E0CC9080029F898 /* Debug */,
+				5AD429DC1E0CC9080029F898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD429DD1E0CC9080029F898 /* Build configuration list for PBXNativeTarget "点击控件实现复制粘贴UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD429DE1E0CC9080029F898 /* Debug */,
+				5AD429DF1E0CC9080029F898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD429A21E0CC9080029F898 /* Project object */;
+}
